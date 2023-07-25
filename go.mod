@@ -1,4 +1,4 @@
-module github.com/hatch-studio/pgtools
+module github.com/partounian/pgtools
 
 go 1.17
 

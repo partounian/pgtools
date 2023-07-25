@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hatch-studio/pgtools"
+	"github.com/partounian/pgtools"
 )
 
 type User struct {

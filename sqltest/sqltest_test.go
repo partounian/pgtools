@@ -16,8 +16,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hatch-studio/pgtools/sqltest"
 	"github.com/jackc/pgx/v4"
+	"github.com/partounian/pgtools/sqltest"
 )
 
 var force = flag.Bool("force", false, "Force cleaning the database before starting")
@@ -203,7 +203,7 @@ func TestMigrationUninitialized(t *testing.T) {
 
 func TestSQLTestName(t *testing.T) {
 	t.Parallel()
-	var want = []string{
+	want := []string{
 		"testsqltestname_foo",
 		"testsqltestname_foo_bar",
 	}

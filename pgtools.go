@@ -9,7 +9,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/hatch-studio/pgtools/internal/structref"
+	"github.com/partounian/pgtools/internal/structref"
 )
 
 // Wildcard returns an expression that can be used for querying a

@@ -6,7 +6,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/hatch-studio/pgtools/sqltest/example/internal/postgres"
+	"github.com/partounian/pgtools/sqltest/example/internal/postgres"
 	"github.com/jackc/pgx/v4/pgxpool"
 )
 
